@@ -1,0 +1,11 @@
+diff --git a/Makefile.am b/Makefile.am
+index 7389a35..d839fcf 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -36,5 +36,5 @@ libmurrine_la_SOURCES = \
+ 	./src/stack-blur.h
+ 
+ libmurrine_la_LDFLAGS = -module -avoid-version -no-undefined
+-libmurrine_la_LIBADD =  $(GTK_LIBS) $(pixman_LIBS)
++libmurrine_la_LIBADD =  $(GTK_LIBS) $(pixman_LIBS) -lm
+ 

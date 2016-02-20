@@ -1,0 +1,20 @@
+Source: gtk2-engines-murrine
+Section: x11
+Priority: optional
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Yves-Alexis Perez <corsac@debian.org>
+Vcs-Bzr: https://code.launchpad.net/~ubuntu-desktop/gtk2-engines-murrine/ubuntu
+Build-Depends: debhelper (>= 9~), libgtk2.0-dev (>= 2.10.1), intltool, dh-autoreconf, hardening-includes
+Standards-Version: 3.9.2
+
+Package: gtk2-engines-murrine
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}, libgtk2.0-0 (>= 2.24.5-4)
+Suggests: murrine-themes (>= 0.98)
+Description: cairo-based gtk+-2.0 theme engine
+ "Murrine" is an Italian word meaning the glass artworks done by Venicians 
+ glass blowers. The Engine is cairo-based, and it's very fast compared to 
+ clearlooks-cairo and ubuntulooks.
+ .
+ This package includes the Murrine engine.
