@@ -1,3 +1,10 @@
+gtk2-engines-murrine (0.98.2-0ubuntu2.2.is.0.98.2_0ubuntu2.1) xenial; urgency=medium
+
+  * Remove pango_cairo_update_layout.patch (revert to 0.98.2-0ubuntu2.1) to
+    fix text shadow problem with some themes (LP: #1598316)
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 18 Aug 2016 10:29:26 +0200
+
 gtk2-engines-murrine (0.98.2-0ubuntu2.1) xenial-proposed; urgency=medium
 
   * pango_cairo_update_layout.patch: new patch. Fixes crashes of
